@@ -1,0 +1,40 @@
+/* content-panel */
+.content-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citacao {
+    height: 250px;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.citacao img {
+    height: 100%;
+}
+
+.citacao p {
+    padding: 2em;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 200px;
+}
+
+.skill span svg {
+    height: 64px;
+    width: 64px;
+}

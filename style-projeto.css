@@ -1,0 +1,31 @@
+.content-panel {
+    display: flex;
+    flex-direction: column;
+}
+.card-proj {
+    height: 200px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+}
+.card-proj span {
+    padding: 2em;
+    width: 70%;
+}
+.img-content {
+    background-color: black;
+    height: 100%;
+    width: 30%;
+}
+
+.card-proj:hover {
+    opacity: 70%;
+    cursor: pointer;
+    transition: 200ms;
+}
